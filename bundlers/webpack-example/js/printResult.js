@@ -6,5 +6,5 @@ export const printError = (errorText) => {
 }
 
 export function printResult({years, months, days}) {
-  result.innerHTML = `Год: ${years} - Месяц: ${months} - День: ${days}`;
+  result.innerHTML = `Year: ${years} - Month: ${months} - Day: ${days}`;
 }

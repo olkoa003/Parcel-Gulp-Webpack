@@ -12,5 +12,5 @@ function handleCalcDates(event) {
   if (firstDate && secondDate) {
     const diff = diffDates(firstDate, secondDate); // 3
     dateCalcResult.innerHTML = diffToHtml(diff); // 4
-  } else dateCalcResult.innerHTML = formatError("Для расчета промежутка необходимо заполнить оба поля"); // 5
+  } else dateCalcResult.innerHTML = formatError("For calculation both fields must be populated"); // 5
 }
