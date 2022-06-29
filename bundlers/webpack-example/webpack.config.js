@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: './js/index.js',
-    mode: 'development',
+    // mode: 'development',
     output: {
         filename: 'main.[contenthash].js',
         path: resolve(__dirname, 'build')
@@ -20,11 +20,11 @@ module.exports = {
             },
             {
                 test: /\.css$/i,
-                use: ['style-loader, css-loader']
+                use: ['style-loader', 'css-loader']
             },
             {
                 test: /\.s[ac]ss$/i,
-                use: ['style-loader, css-loader, sass-loader']
+                use: ['style-loader', 'css-loader', 'sass-loader']
             },
         ],
     },
@@ -40,5 +40,4 @@ module.exports = {
         open: true,
         hot: true,
     }
-
 }

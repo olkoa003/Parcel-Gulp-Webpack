@@ -1,16 +1,17 @@
 body {
-  position: relative;
+    position: relative;
 }
-
+  
 #datecalc, #timer {
-  position: absolute;
+    position: absolute;
+    
 }
-
+  
 .active {
-  color: yellow;
-  display: none;
+    color:green;
+    display: none;
 }
-
+  
 .hidden {
-  display: none;
+    display: none;
 }

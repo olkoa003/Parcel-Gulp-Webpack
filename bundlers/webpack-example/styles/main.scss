@@ -1,17 +1,17 @@
 body {
-  position: relative;
+position: relative;
 }
-
-#datecalc, #timer {
-  position: absolute;
   
+#datecalc, #timer {
+    position: absolute;
+    
 }
-
+  
 .active {
-  color:green;
-  display: none;
+    color:yellow;
+    display: none;
 }
-
+  
 .hidden {
-  display: none;
+    display: none;
 }
